@@ -24,8 +24,12 @@ router.get('/:id', (req, res) => {
   Tag.findOne({
     where: { id: req.params.id },
     include: { model: Product }
-
   })
+  .then(tagData => res.json(tagData))
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err);
+  });
 });
 
 router.post('/', (req, res) => {
