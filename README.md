@@ -67,3 +67,5 @@ Lastly, to initaite the server run;
 
 ## Functionality
 
+**[Video Walkthrough](https://drive.google.com/file/d/1gO8HSW_Q-4Qafr0X8PkA38rThlB-8f8u/view)**
+
